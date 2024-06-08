@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="colorflipper.js"></script>
+    <style>
+        .heading{
+            display: flex;
+            justify-content: space-between;
+            margin:2rem;
+            border-bottom: 2px solid navy;
+            text-transform:uppercase;
+            font-family: cursive;
+        
+        }
+    
+        .click{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:100vh;  
+            background-color: green;
+        }
+        button{
+            padding:1rem;
+            width:8rem;
+            background-color: red;
+            color:white;
+            font-size: 1.3rem;
+            border-radius: 10px;
+        
+            
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section class="heading">
+            <h1>color flipper</h1>
+            <h1><span id="code">#ffffff</span></h1>
+        </section>
+        <section class="click">
+            <button value="click me" >click me</button>
+        </section>
+    </main>
+</body>
+</html>
